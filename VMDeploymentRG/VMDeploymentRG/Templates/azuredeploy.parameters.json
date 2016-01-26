@@ -15,13 +15,13 @@
 			"value": "gauravbh"
 		},
 		"dnsName": {
-			"value": "ravcdDNS1"
+			"value": "ravcdns1"
 		},
 		"vmSize": {
 			"value": "Standard_A3"
 		},
 		"adminPassword": {
-			"value": "abc_123"
+			"value": "P@ssword3"
 		},
 		"webdeploypkg": {
 			"value": "https://ravcdwebpackagevmstorage.blob.core.windows.net/packages/WebApplication1.zip"
@@ -30,16 +30,16 @@
 			"value": "ConfigureWebServer.ps1\\Main"
 		},
 		"DatabaseServerName": {
-			"value": "ravCDVMSQLSvr1"
+			"value": "ravcdvmsqlsvr1"
 		},
 		"DatabaseServerLocation": {
 			"value": "westus"
 		},
 		"databaseServerAdminLogin": {
-			"value": "admin"
+			"value": "gauravbh"
 		},
 		"databaseServerAdminLoginPassword": {
-			"value": "abc123456"
+			"value": "P@ssword3"
 		},
 		"databaseName": {
 			"value": "ravCDVMSqlDb1"
