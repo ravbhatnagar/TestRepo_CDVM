@@ -1,0 +1,52 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+	"parameters": {
+		"newStorageAccountName": {
+			"value": "ravCDVMStorage"
+		},
+		"vmLocation": {
+			"value": "West US"
+		},
+		"vmName": {
+			"value": "ravCDVM1"
+		},
+		"adminUserName": {
+			"value": "gauravbh"
+		},
+		"dnsName": {
+			"value": "ravcdDNS1"
+		},
+		"vmSize": {
+			"value": "Standard_A3"
+		},
+		"adminPassword": {
+			"value": "abc_123"
+		},
+		"webdeploypkg": {
+			"value": "https://ravcdwebpackagevmstorage.blob.core.windows.net/packages/WebApplication1.zip"
+		},
+		"configurationFunction": {
+			"value": "ConfigureWebServer.ps1\\Main"
+		},
+		"DatabaseServerName": {
+			"value": "ravCDVMSQLSvr1"
+		},
+		"DatabaseServerLocation": {
+			"value": "westus"
+		},
+		"databaseServerAdminLogin": {
+			"value": "admin"
+		},
+		"databaseServerAdminLoginPassword": {
+			"value": "abc123456"
+		},
+		"databaseName": {
+			"value": "ravCDVMSqlDb1"
+		},
+		"modulesUrl": {
+			"value": "https://github.com/Azure/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/ConfigureWebServer.ps1.zip"
+		}
+	}
+}
+
