@@ -24,7 +24,7 @@
 			"value": "P@ssword3"
 		},
 		"webdeploypkg": {
-			"value": "https://ravcdwebpackagevmstorage.blob.core.windows.net/packages/WebApplication1.zip"
+			"value": "https://github.com/ravbhatnagar/TestRepo_CDVM/blob/master/VMDeploymentRG/WebApplication1.zip"
 		},
 		"configurationFunction": {
 			"value": "ConfigureWebServer.ps1\\Main"
