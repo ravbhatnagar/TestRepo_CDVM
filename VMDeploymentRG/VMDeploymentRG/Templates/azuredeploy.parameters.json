@@ -45,7 +45,7 @@
 			"value": "ravCDVMSqlDb1"
 		},
 		"modulesUrl": {
-			"value": "https://github.com/Azure/azure-quickstart-templates/raw/master/201-web-app-vm-dsc/ConfigureWebServer.ps1.zip"
+			"value": "https://github.com/ravbhatnagar/TestRepo_CDVM/blob/master/VMDeploymentRG/ConfigureWebServer.ps1.zip"
 		}
 	}
 }
